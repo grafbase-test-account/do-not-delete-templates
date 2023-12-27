@@ -1,0 +1,9 @@
+{
+  "name": "single-resolver-tsconfig",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "@grafbase/sdk": "^0.13.1"
+  }
+}
