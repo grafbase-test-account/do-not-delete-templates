@@ -1,6 +1,6 @@
 extend schema
   @openapi(
-    name: "OpenAPI"
+    name: "testRest"
     url: "{{ env.TEST_REST_API_URL }}"
     schema: "{{ env.TEST_REST_API_URL }}/api-docs/openapi.json"
   ) {
