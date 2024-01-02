@@ -1,0 +1,8 @@
+extend schema
+  @openapi(
+    name: "OpenAPI"
+    url: "{{ env.TEST_REST_API_URL }}"
+    schema: "{{ env.TEST_REST_API_URL }}/api-docs/openapi.json"
+  ) {
+  query: Query
+}
